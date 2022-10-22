@@ -41,7 +41,7 @@ local String = {}
     end
 
     String.clone = function (class_string)
-        return nil
+        return String.new(class_string.str)
     end
 
 return String
