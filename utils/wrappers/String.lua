@@ -35,7 +35,7 @@ local String = {}
             }
         )
 
-        class_string.str = str or ''
+        class_string.str = str
 
         return class_string
     end
