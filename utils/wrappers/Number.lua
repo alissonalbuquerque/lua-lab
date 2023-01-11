@@ -14,6 +14,10 @@ local Number = {}
 
                     getNum = function(self)
                         return self.num
+                    end,
+
+                    pow = function(self, exp)
+                        return math.pow(self.num, exp)
                     end
                 },
 
